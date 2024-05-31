@@ -1,0 +1,12 @@
+.animation-container {
+	width: 300px;
+	height: 300px;
+	border: 1px solid #ccc;
+}
+
+.animation-element {
+	width: 100px;
+	height: 100px;
+	background-color: #ff0000;
+	border-radius: 50%;
+}

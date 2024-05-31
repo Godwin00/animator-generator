@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Animation Generator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="animation-container">
+		<!-- animation will be generated here -->
+	</div>
+	<form>
+		<label for="animation-type">Animation Type:</label>
+		<select id="animation-type">
+			<option value="fade">Fade</option>
+			<option value="slide">Slide</option>
+			<option value="spin">Spin</option>
+		</select>
+		<label for="duration">Duration (ms):</label>
+		<input type="number" id="duration" value="1000">
+		<label for="color">Color:</label>
+		<input type="color" id="color" value="#ff0000">
+		<button id="generate-btn">Generate Animation</button>
+	</form>
+	<script src="javascript.js"></script>
+</body>
+</html>
